@@ -1,0 +1,14 @@
+﻿<Application x:Class="Itogovaya_rabota_provider.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Itogovaya_rabota_provider"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--Стиль для кнопки-->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4A67F7"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="7"/>
+        </Style>
+    </Application.Resources>
+</Application>
